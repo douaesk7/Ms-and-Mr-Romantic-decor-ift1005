@@ -1,0 +1,76 @@
+<!-- ZOUHAIR EL YANI & DOUAE SAKKAT -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Ms and Mr Romantic Decor</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styletp1.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="titleholder">
+            <h1>Ms and Mr Romantic Decor</h1>
+        </div>
+        <img src="logo.PNG" alt="Logo Ms and Mr Romantic Decor" class="logo">
+        <div id="content">
+            <nav>
+                <ul id="links">
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./packages.html">Nos forfaits</a></li>
+                    <li><a href="./policy.html">Politique</a></li>
+                    <li><a href="./a_propos.html">A propos</a></li>
+                    <li><a href="./contact.html">Contactez nous</a></li>
+                </ul>
+            </nav>
+            <div>
+          <main>
+            <br>
+            <h2 class="forfait">Réservations avec Ms and Mr Romantic Decor</h2>
+            <form method="post" onsubmit="return verifyDate(event)"></form>
+              <label for="myPrenom">* Prénom:</label>
+              <input type="text" name="myPrenom" id="myPrenom"
+              required="required">
+              
+              <label for="myNom">* Nom:</label>
+              <input type="text" name="myNom" id="myNom"
+              required="required">
+              
+              <label for="myEmail">* Email:</label>
+              <input type="email" name="myEmail" id="myEmail"
+              required="required">
+              
+              <label for="myTel">* Téléphone:</label>
+              <input type="tel" name="myTel" id="myTel" pattern="\d+">
+
+              <h4 id="dateerr" hidden>Date Invalide!</h4>
+              <label for="myDateévènement">*Date de l'evenement:</label>
+              <input type="date" name="myDateévènement" id="myDateévènement" required>
+        
+
+              <label for="myoccasion">* Occasion:</label>
+              <input type="text" name="myoccasion" id="myoccasion" required >
+
+              <label for="myCommentaires">* Commentaires:</label>
+              <textarea name="myCommentaires" id="myCommentaires" 
+              required="required"></textarea>
+
+              <input id="mySubmit" type="submit" value="Soumettre">         
+                </main>
+                <footer>
+                    <i>
+                        <small>
+                            Copyright &copy; 2023 Ms and Mr Romantic Decor <br> 
+                            <strong> Douae Sakkat et Zouhair El Yani </strong>
+                            <a href="mailto:douaesakkat7@gmail.com">douaesakkat7@gmail.com</a><br>
+                            Dernière mise à jour : 6 novembre 2023
+                        </small>
+                    </i>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
